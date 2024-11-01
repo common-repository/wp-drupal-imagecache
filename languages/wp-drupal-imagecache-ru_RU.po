@@ -1,0 +1,701 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Thumbnails like in Drupal\n"
+"POT-Creation-Date: 2023-07-03 22:31+0300\n"
+"PO-Revision-Date: 2023-07-03 22:32+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: bootstrap.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SearchPathExcluded-1: svn\n"
+
+#: bootstrap.php:33
+msgid ""
+"There is no GD or Imagick extension loaded in your php. Please load one of "
+"them."
+msgstr ""
+"У вас не установлено необходимое расширение PHP. Установите и включите либо "
+"GD  либо Imagick для работы с модулем."
+
+#: bootstrap.php:38
+msgid "Your server is running PHP version "
+msgstr "Ваш сервер работает на PHP версии "
+
+#: bootstrap.php:42
+msgid "Your Wordpress running version is "
+msgstr "У вас установлен WordPress версии "
+
+#: controller/class-wpdi-common.php:112
+#, php-format
+msgid "Cropped %sx%s %s"
+msgstr "Обрезано %sx%s %s"
+
+#: controller/class-wpdi-common.php:120
+msgid "Desaturated"
+msgstr "Обезцвечено"
+
+#: controller/class-wpdi-common.php:124
+#, php-format
+msgid "Resized %sx%s"
+msgstr "Изменен размер на %sx%s"
+
+#: controller/class-wpdi-common.php:133
+msgid "transparent"
+msgstr "прозрачный"
+
+#: controller/class-wpdi-common.php:134
+#, php-format
+msgid "Rotated to %s deg., background %s"
+msgstr "Повернут на угол %s°, фон %s"
+
+#: controller/class-wpdi-common.php:142
+#, php-format
+msgid "Scaled %sx%s with upscale"
+msgstr "Масштабировано до %sx%s с обрезкой"
+
+#: controller/class-wpdi-common.php:143
+#, php-format
+msgid "Scaled %sx%s without upscale"
+msgstr "Масштабировано до %sx%s без обрезки"
+
+#: controller/class-wpdi-common.php:148
+#, php-format
+msgid "Scaled&cropped %sx%s %s"
+msgstr "Отмасштабировано и обрезано до %sx%s %s"
+
+#: controller/class-wpdi-common.php:156
+msgid "Rounded corners"
+msgstr "Закруглённые края"
+
+#: controller/class-wpdi-common.php:161
+msgid "Flipped(reflected vertically)"
+msgstr "Отзеркалено по вертикали"
+
+#: controller/class-wpdi-common.php:162
+msgid "Flopped(reflected horizontally)"
+msgstr "Отзеркалено по горизонтали"
+
+#: controller/class-wpdi-common.php:339
+msgid "Sample image for preview"
+msgstr "Изображение для предпросмотра"
+
+#: controller/class-wpdi-common.php:559
+msgid "Someone overload image effect class by priority."
+msgstr "Плагин не работает, т.к. что-то по приоритету выше чем плагин."
+
+#: controller/class-wpdi-common.php:563
+msgid "Effects or preset not found"
+msgstr "Эффект или пресет не найден"
+
+#: controller/class-wpdi-common.php:622
+msgid "Incorrect effect:"
+msgstr "Неправильный эффект:"
+
+#. Plugin Name of the plugin/theme
+#: controller/class-wpdi-hooks.php:176 controller/class-wpdi-hooks.php:177
+msgid "Thumbnails like in Drupal"
+msgstr "Миниатюры как в Drupal"
+
+#: controller/class-wpdi-hooks.php:176 controller/class-wpdi-hooks.php:552
+#: views/settings-page.php:17
+msgid "Settings"
+msgstr "Настройки"
+
+#: controller/class-wpdi-hooks.php:203
+msgid "Preset successfully added"
+msgstr "Пресет обновлен"
+
+#: controller/class-wpdi-hooks.php:208
+msgid "Please fill new preset name"
+msgstr "Укажите имя пресета"
+
+#: controller/class-wpdi-hooks.php:215
+msgid "Forbidden action"
+msgstr "Действие недопустимо"
+
+#: controller/class-wpdi-hooks.php:235 controller/class-wpdi-hooks.php:320
+msgid "Effect successfully added"
+msgstr "Эффект добавлен"
+
+#: controller/class-wpdi-hooks.php:252
+msgid "Preset successfully updated"
+msgstr "Пресет обновлен"
+
+#: controller/class-wpdi-hooks.php:266
+msgid "Can`t handle preview, check system errors!"
+msgstr "Не удается создать превью, проверьте лог ошибок!"
+
+#: controller/class-wpdi-hooks.php:269
+msgid "Crop"
+msgstr "Обрезать"
+
+#: controller/class-wpdi-hooks.php:270
+msgid "Desaturate"
+msgstr "Обесцветить"
+
+#: controller/class-wpdi-hooks.php:271
+msgid "Resize"
+msgstr "Изменение размера"
+
+#: controller/class-wpdi-hooks.php:272
+msgid "Rotate"
+msgstr "Вращение"
+
+#: controller/class-wpdi-hooks.php:273
+msgid "Scale"
+msgstr "Масштабирование"
+
+#: controller/class-wpdi-hooks.php:274
+msgid "Scale and crop"
+msgstr "Масштабирование и обрезка"
+
+#: controller/class-wpdi-hooks.php:275
+msgid "Round corners"
+msgstr "Закруглить края"
+
+#: controller/class-wpdi-hooks.php:276
+msgid "Flip & Flop (reflect image)"
+msgstr "Отзеркалить"
+
+#: controller/class-wpdi-hooks.php:298
+msgid "You can`t do this action"
+msgstr "Вы не можете это сделать"
+
+#: controller/class-wpdi-hooks.php:349
+msgid "Effect successfully updated"
+msgstr "Эффект обновлен"
+
+#: controller/class-wpdi-hooks.php:385
+msgid "Effect successfully deleted"
+msgstr "Эффект удален"
+
+#: controller/class-wpdi-hooks.php:399
+msgid "Preset successfully disabled"
+msgstr "Пресет отключен"
+
+#: controller/class-wpdi-hooks.php:411
+msgid "Preset successfully enabled"
+msgstr "Пресет включен"
+
+#: controller/class-wpdi-hooks.php:427
+msgid "Preset successfully deleted"
+msgstr "Пресет удален"
+
+#: controller/class-wpdi-hooks.php:431
+msgid "Preset successfully reseted"
+msgstr "Пресет сброшен до первоначального состояния"
+
+#: controller/class-wpdi-hooks.php:551
+msgid "Images presets settings"
+msgstr "Настройки пресетов изображений"
+
+#: model/class-effects-gd.php:53
+msgid "Image rotate failed."
+msgstr "Неудачная попытка вращения изображения."
+
+#: model/class-effects-gd.php:112
+msgid "Image resize failed."
+msgstr "Неудачная попытка изменить размер изображения."
+
+#: views/edit-preset.php:10
+msgid "Preview"
+msgstr "Предпросмотр"
+
+#: views/edit-preset.php:16
+msgid "before"
+msgstr "до изменений"
+
+#: views/edit-preset.php:18 views/edit-preset.php:37
+msgid "view actual size"
+msgstr "посмотреть реальный размер"
+
+#: views/edit-preset.php:24
+msgid "preview before changes"
+msgstr "предпросмотр до изменений"
+
+#: views/edit-preset.php:35
+msgid "after"
+msgstr "после изменений"
+
+#: views/edit-preset.php:43
+msgid "preview after change"
+msgstr "предпросмотр после изменений"
+
+#: views/edit-preset.php:62 views/settings-page.php:151
+msgid "Name"
+msgstr "Имя"
+
+#: views/edit-preset.php:67 views/settings-page.php:154
+msgid "Thumbnail unique name which used everywhere"
+msgstr ""
+"Уникальное имя пресета для использования далее пресета модулями или в теме"
+
+#: views/edit-preset.php:71
+msgid "Effects"
+msgstr "Эффекты"
+
+#: views/edit-preset.php:76
+msgid "Effect"
+msgstr "Эффект"
+
+#: views/edit-preset.php:77 views/settings-page.php:46
+msgid "Actions"
+msgstr "Действия"
+
+#: views/edit-preset.php:95 views/settings-page.php:98
+msgid "edit"
+msgstr "изменить"
+
+#: views/edit-preset.php:103 views/settings-page.php:118
+#: views/settings-page.php:195 views/settings-page.php:226
+msgid "Are you sure?"
+msgstr "Вы уверены?"
+
+#: views/edit-preset.php:104
+msgid "delete"
+msgstr "удалить"
+
+#: views/edit-preset.php:116
+msgid "Select a new effect"
+msgstr "Выберите новый эффект"
+
+#: views/edit-preset.php:123
+msgid "Add effect"
+msgstr "Добавить эффект"
+
+#: views/edit-preset.php:126
+msgid "Select effect to add to image"
+msgstr "Выберите эффект для добавления его к изображению"
+
+#: views/edit-preset.php:134
+msgid "Save preset"
+msgstr "Сохранить пресет"
+
+#: views/edit-preset.php:137 views/effect_form/image_crop.php:133
+#: views/effect_form/image_flip_flop.php:51
+#: views/effect_form/image_resize.php:43 views/effect_form/image_rotate.php:57
+#: views/effect_form/image_round_corners.php:95
+#: views/effect_form/image_scale.php:54
+#: views/effect_form/image_scale_and_crop.php:133
+msgid "back"
+msgstr "назад"
+
+#: views/effect_form/image_crop.php:9
+msgid "Image crop settings"
+msgstr "Настройки обрезки изображения"
+
+#: views/effect_form/image_crop.php:10
+msgid ""
+"Cropping will remove portions of an image to make it the specified "
+"dimensions."
+msgstr ""
+"Обрезание уберет соответствующую настройкам часть изображения чтобы оно "
+"стало указанных размеров."
+
+#: views/effect_form/image_crop.php:21 views/effect_form/image_resize.php:21
+#: views/effect_form/image_scale.php:21
+#: views/effect_form/image_scale_and_crop.php:21
+msgid "Width"
+msgstr "Ширина"
+
+#: views/effect_form/image_crop.php:25 views/effect_form/image_crop.php:33
+#: views/effect_form/image_resize.php:25 views/effect_form/image_resize.php:33
+#: views/effect_form/image_round_corners.php:29
+#: views/effect_form/image_round_corners.php:51
+#: views/effect_form/image_round_corners.php:62
+#: views/effect_form/image_round_corners.php:73
+#: views/effect_form/image_round_corners.php:84
+#: views/effect_form/image_scale.php:25 views/effect_form/image_scale.php:33
+#: views/effect_form/image_scale_and_crop.php:25
+#: views/effect_form/image_scale_and_crop.php:33
+msgid "in pixels"
+msgstr "в пикселях"
+
+#: views/effect_form/image_crop.php:29 views/effect_form/image_resize.php:29
+#: views/effect_form/image_scale.php:29
+#: views/effect_form/image_scale_and_crop.php:29
+msgid "Height"
+msgstr "Высота"
+
+#: views/effect_form/image_crop.php:38
+#: views/effect_form/image_scale_and_crop.php:38
+msgid "Arrangement"
+msgstr "Расположение"
+
+#: views/effect_form/image_crop.php:46
+#: views/effect_form/image_scale_and_crop.php:46
+msgid "Top left"
+msgstr "Сверху слева"
+
+#: views/effect_form/image_crop.php:54
+#: views/effect_form/image_scale_and_crop.php:54
+msgid "Top center"
+msgstr "Сверху по-центру"
+
+#: views/effect_form/image_crop.php:62
+#: views/effect_form/image_scale_and_crop.php:62
+msgid "Top right"
+msgstr "Сверху справа"
+
+#: views/effect_form/image_crop.php:72
+#: views/effect_form/image_scale_and_crop.php:72
+msgid "Center left"
+msgstr "По-центру слева"
+
+#: views/effect_form/image_crop.php:80
+#: views/effect_form/image_scale_and_crop.php:80
+msgid "Center"
+msgstr "Центр"
+
+#: views/effect_form/image_crop.php:88
+#: views/effect_form/image_scale_and_crop.php:88
+msgid "Center right"
+msgstr "По-центру справа"
+
+#: views/effect_form/image_crop.php:98
+#: views/effect_form/image_scale_and_crop.php:98
+msgid "Bottom left"
+msgstr "Снизу слева"
+
+#: views/effect_form/image_crop.php:106
+#: views/effect_form/image_scale_and_crop.php:106
+msgid "Bottom center"
+msgstr "Снизу по-центру"
+
+#: views/effect_form/image_crop.php:114
+#: views/effect_form/image_scale_and_crop.php:114
+msgid "Bottom right"
+msgstr "Снизу справа"
+
+#: views/effect_form/image_crop.php:123
+#: views/effect_form/image_scale_and_crop.php:123
+msgid "The part of the image that will be retained during the crop."
+msgstr "Часть изображения которая останется после обрезки лишнего."
+
+#: views/effect_form/image_crop.php:131
+#: views/effect_form/image_flip_flop.php:49
+#: views/effect_form/image_resize.php:41 views/effect_form/image_rotate.php:55
+#: views/effect_form/image_round_corners.php:93
+#: views/effect_form/image_scale.php:52
+#: views/effect_form/image_scale_and_crop.php:131
+msgid "Save Effect"
+msgstr "Сохранить эффект"
+
+#: views/effect_form/image_flip_flop.php:9
+msgid "Image flip & flop (reflect) settings"
+msgstr "Настройки отражения изображения"
+
+#: views/effect_form/image_flip_flop.php:10
+msgid "Reflect image with selected direction."
+msgstr "Отзеркаливает изображение в указанном направлении"
+
+#: views/effect_form/image_flip_flop.php:21
+msgid "Direction"
+msgstr "Направление"
+
+#: views/effect_form/image_flip_flop.php:25
+#: views/effect_form/image_flip_flop.php:29
+msgid "Flip(reflect vertical)"
+msgstr "Отзеркалить по вертикали"
+
+#: views/effect_form/image_flip_flop.php:35
+#: views/effect_form/image_flip_flop.php:39
+msgid "Flop(reflect horizontal)"
+msgstr "Отзеркалить по горизонтали"
+
+#: views/effect_form/image_resize.php:9
+msgid "Image resize settings"
+msgstr "Настройки изменения размеров изображения"
+
+#: views/effect_form/image_resize.php:10
+msgid ""
+"Resizing will make images an exact set of dimensions. This may cause images "
+"to be stretched or shrunk disproportionately."
+msgstr ""
+"Изменение размеров сделает изображение размером указанным в настойках. Это "
+"может привести к увеличению или уменьшению изображения непропорционально."
+
+#: views/effect_form/image_rotate.php:9
+msgid "Image rotate settings"
+msgstr "Настройки вращения изображения"
+
+#: views/effect_form/image_rotate.php:10
+msgid ""
+"Rotating an image may cause the dimensions of an image to increase to fit "
+"the diagonal."
+msgstr ""
+"Поворот изображения может привести к увеличению размеров изображения по "
+"диагонали."
+
+#: views/effect_form/image_rotate.php:21
+msgid "Rotation angle"
+msgstr "Угол вращения"
+
+#: views/effect_form/image_rotate.php:26
+msgid ""
+"The number of degrees the image should be rotated. Positive numbers are "
+"clockwise, negative are counter-clockwise."
+msgstr ""
+"Численное значение угла поворота изображения в градусах. Положительное число "
+"повернет по часовой стрелке, отрицательное - против часовой."
+
+#: views/effect_form/image_rotate.php:31
+msgid "Background color"
+msgstr "Цвет фона"
+
+#: views/effect_form/image_rotate.php:36
+msgid ""
+"The background color to use for exposed areas of the image. Use web-style "
+"hex colors (#FFFFFF for white, #000000 for black). Leave blank for "
+"transparency on image types that support it."
+msgstr ""
+"Цвет фона, используемый для пустых областей изображения полученных при "
+"поворте. Используйте шестнадцатеричные цвета в веб-стиле (например #FFFFFF "
+"для белого, # 000000 для черного). Оставьте пустым для прозрачности на типах "
+"изображений, которые её поддерживают."
+
+#: views/effect_form/image_rotate.php:45
+msgid "Randomize"
+msgstr "В случайном порядке"
+
+#: views/effect_form/image_rotate.php:47
+msgid ""
+"Randomize the rotation angle for each image. The angle specified above is "
+"used as a maximum."
+msgstr ""
+"Поворачивает каждое изображение на случайный угол. Угол заданный в поле "
+"\"Угол вращения\" задаёт максимальный угол поворта."
+
+#: views/effect_form/image_round_corners.php:12
+msgid "Image round corners settings"
+msgstr "Настройки закругления краёв у изображения"
+
+#: views/effect_form/image_round_corners.php:13
+msgid "This is true cropping, not overlays, so the result can be transparent."
+msgstr "Простое обрезание краёв"
+
+#: views/effect_form/image_round_corners.php:24
+msgid "Radius"
+msgstr "Радиус"
+
+#: views/effect_form/image_round_corners.php:38
+msgid "Individual corner values"
+msgstr "Раздельные значения для каждого угла"
+
+#: views/effect_form/image_round_corners.php:40
+msgid "Set Corners Independently"
+msgstr "установить независимые радиусы для разных углов"
+
+#: views/effect_form/image_round_corners.php:45
+msgid "Top Left Radius"
+msgstr "Радиус сверху слева"
+
+#: views/effect_form/image_round_corners.php:56
+msgid "Top Right Radius"
+msgstr "Радиус сверху справа"
+
+#: views/effect_form/image_round_corners.php:67
+msgid "Bottom Left Radius"
+msgstr "Радиус снизу слева"
+
+#: views/effect_form/image_round_corners.php:78
+msgid "Bottom Right Radius"
+msgstr "Радиус снизу справа"
+
+#: views/effect_form/image_scale.php:9
+msgid "Image scale settings"
+msgstr "Настройки масштабирования изображения"
+
+#: views/effect_form/image_scale.php:10
+msgid ""
+"Scaling will maintain the aspect-ratio of the original image. If only a "
+"single dimension is specified, the other dimension will be calculated."
+msgstr ""
+"Масштабирование сохранит пропорции исходного изображения. Если указано "
+"только одно измерение, другое измерение будет рассчитано автоматически."
+
+#: views/effect_form/image_scale.php:42
+msgid "Allow Upscaling"
+msgstr "Позволить увеличивать"
+
+#: views/effect_form/image_scale.php:44
+msgid "Let scale make images larger than their original size"
+msgstr ""
+"Позволяет эффекту сделать измененное изображение больше чем оригинальное"
+
+#: views/effect_form/image_scale_and_crop.php:9
+msgid "Image scale and crop settings"
+msgstr "Настройки масштабирования и обрезки изображения"
+
+#: views/effect_form/image_scale_and_crop.php:10
+msgid ""
+"Scale and crop will maintain the aspect-ratio of the original image, then "
+"crop the larger dimension. This is most useful for creating perfectly square "
+"thumbnails without stretching the image."
+msgstr ""
+"Масштаб и обрезка сохранит пропорции исходного изображения, а затем обрежет "
+"большее измерение. Это наиболее полезно для создания миниатюр с точными "
+"размерами без растяжения изображения."
+
+#: views/requirements-error.php:7
+msgid ""
+"error: Your environment does not meet all of the system requirements listed "
+"below."
+msgstr ""
+"ошибка: Ваша среда не соответствует всем системным требованиям, "
+"перечисленным ниже."
+
+#: views/requirements-error.php:17
+msgid ""
+"If you need to upgrade your version of PHP you can ask your hosting company "
+"for assistance, and if you need help upgrading WordPress you can refer to the"
+msgstr ""
+"Если вам нужно обновить версию PHP, вы можете обратиться за помощью к вашей "
+"хостинговой компании, а если вам нужна помощь в обновлении WordPress, вы "
+"можете обратиться к"
+
+#: views/settings-page.php:19 views/settings-page.php:20
+msgid "Create new preset"
+msgstr "Создать новый пресет"
+
+#: views/settings-page.php:27 views/settings-page.php:190
+msgid "delete thumbs"
+msgstr "удалить миниатюры"
+
+#: views/settings-page.php:29
+msgid "PLEASE READ AND AGREE"
+msgstr "ПОЖАЛУЙСТА, ПРОЧИТАЙТЕ И СОГЛАСИТЕСЬ"
+
+#: views/settings-page.php:34
+msgid "Delete thumbnails warning!"
+msgstr "Предупреждение об удалении миниатюр"
+
+#: views/settings-page.php:42
+msgid "Preset name"
+msgstr "Имя пресета"
+
+#: views/settings-page.php:43
+msgid "Result"
+msgstr "Результат"
+
+#: views/settings-page.php:44
+msgid "Type"
+msgstr "Тип"
+
+#: views/settings-page.php:45
+msgid "Status"
+msgstr "Состояние"
+
+#: views/settings-page.php:62
+#, php-format
+msgid "Scale %sx%s with crop"
+msgstr "Масштабировано до %sx%s  с обрезкой"
+
+#: views/settings-page.php:63
+#, php-format
+msgid "Scale %sx%s without crop"
+msgstr "Масштабировано до %sx%s  без обрезки"
+
+#: views/settings-page.php:70
+msgid "Internal"
+msgstr "Внутренний"
+
+#: views/settings-page.php:72
+msgid "External"
+msgstr "Системный"
+
+#: views/settings-page.php:73
+msgid "Core"
+msgstr "Базовый"
+
+#: views/settings-page.php:77
+msgid "Disabled"
+msgstr "Отключен"
+
+#: views/settings-page.php:83
+msgid "enable"
+msgstr "включить"
+
+#: views/settings-page.php:85
+msgid "Enabled"
+msgstr "Включен"
+
+#: views/settings-page.php:91
+msgid "disable"
+msgstr "выключить"
+
+#: views/settings-page.php:104
+msgid "regenerate"
+msgstr "перегенерировать"
+
+#: views/settings-page.php:119
+msgid "remove"
+msgstr "удалить"
+
+#: views/settings-page.php:129
+msgid "remove all plugin changes from preset"
+msgstr "убирает все изменения с пресета"
+
+#: views/settings-page.php:130
+msgid "reset"
+msgstr "сбросить"
+
+#: views/settings-page.php:160
+msgid "Add preset"
+msgstr "Добавить пресет"
+
+#: views/settings-page.php:170
+msgid "Please pay attention about this functionality!"
+msgstr "Обратите внимание на работу этой функции!"
+
+#: views/settings-page.php:172
+msgid "MAKE BACKUP BEFORE DELETE THUMBNAILS!!!!"
+msgstr "СДЕЛАЙТЕ РЕЗЕРВНУЮ КОПИЮ ПЕРЕД УДАЛЕНИЕМ МИНИАТЮР!!!!"
+
+#: views/settings-page.php:175
+msgid ""
+"This action will find and remove all disabled preset thumbnails and "
+"thumbnails created with nonexistent or deleted presets."
+msgstr ""
+"Это действие найдет и удалит все миниатюры созданные отключенными или более "
+"не существующими пресетами."
+
+#: views/settings-page.php:177
+msgid "And it keep thumbnails which used direct in post or page."
+msgstr ""
+"Также сохранятся те миниатюры, которые используются напрямую в посте или на "
+"странице."
+
+#: views/settings-page.php:180
+msgid "I read and understand"
+msgstr "Я все прочитал и понял"
+
+#. Plugin URI of the plugin/theme
+msgid "https://web-marshal.ru/wordpress-thumbnails-like-in-drupal/"
+msgstr "https://web-marshal.ru/wordpress-thumbnails-like-in-drupal/"
+
+#. Description of the plugin/theme
+msgid "Wordpress implementation/fork of Drupal Imagecache module."
+msgstr "Реализация/форк модуля Drupal Imagecache в среде WordPress."
+
+#. Author of the plugin/theme
+msgid "Stanislav Kuznetsov"
+msgstr "Станислав Кузнецов"
+
+#. Author URI of the plugin/theme
+msgid "https://www.linkedin.com/in/stasionok/"
+msgstr "https://www.linkedin.com/in/stasionok/"

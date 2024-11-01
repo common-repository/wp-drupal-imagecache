@@ -1,0 +1,166 @@
+.settings_page_wp-drupal-imagecache .preset-preview {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.settings_page_wp-drupal-imagecache .preset-preview > div {
+    display: flex;
+    flex-direction: column;
+    margin: 2em 4em;
+    text-align: center;
+    align-items: center;
+}
+
+.settings_page_wp-drupal-imagecache .preset-preview img {
+    width: 160px;
+    height: 120px;
+}
+
+table.effect-arrangement-table {
+    border-collapse: collapse;
+}
+
+table.effect-arrangement-table td {
+    border: 1px solid #CCC;
+}
+
+.settings_page_wp-drupal-imagecache .red {
+    color: red;
+}
+
+.settings_page_wp-drupal-imagecache .green {
+    color: green;
+}
+
+.settings_page_wp-drupal-imagecache .text-right {
+    text-align: right;
+}
+
+.settings_page_wp-drupal-imagecache .preview-image-wrapper {
+    position: relative;
+}
+
+.settings_page_wp-drupal-imagecache .preview-image-wrapper div.height {
+    border: 1px solid #666;
+    border-left: none;
+    position: absolute;
+    right: -6px;
+    top: -1px;
+    width: 2px;
+}
+
+.settings_page_wp-drupal-imagecache .preview-image-wrapper div.width {
+    border: 1px solid #666;
+    border-top: none;
+    height: 2px;
+    left: -1px;
+    bottom: -6px;
+    position: absolute;
+}
+
+.settings_page_wp-drupal-imagecache .preview-image-wrapper div.height span {
+    height: 2em;
+    left: 10px;
+    margin-top: -1em;
+    position: absolute;
+    top: 50%;
+}
+
+.settings_page_wp-drupal-imagecache .preview-image-wrapper div.width span {
+    position: relative;
+    top: 4px;
+}
+
+#TB_ImageOff {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#TB_ImageOff img#TB_Image {
+    margin: 0;
+}
+
+#TB_closeWindow {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 0 28px 4px 0;
+}
+
+.spinner {
+    width: 0;
+    margin: 0;
+}
+
+.spinner.is-active {
+    width: 20px;
+    margin: 4px 3px 0;
+}
+
+#delete-disabled-btn {
+    float: right;
+    margin-bottom: 7px;
+    display: flex;
+    align-items: center;
+}
+
+#delete-disabled-btn .spinner {
+    float: none;
+}
+
+#delete-disabled-btn button {
+    background: red;
+    color: black;
+}
+
+ul.list-flex {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin: 0;
+}
+
+ul.list-flex li {
+    margin-right: 1em;
+}
+
+.button-green {
+    background: green !important;
+    color: white !important;
+}
+
+.button-red {
+    background: red !important;
+    color: black !important;
+}
+
+span.result {
+    display: none;
+
+}
+
+.centered-block {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.flex-stretch {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+    height: 100%;
+}
+
+#delete-disabled-btn .hint {
+    text-decoration: none;
+    height: 30px;
+    display: inline-block;
+    width: 30px;
+}
+
+#delete-disabled-btn .hint span {
+    font-size: 30px;
+}
